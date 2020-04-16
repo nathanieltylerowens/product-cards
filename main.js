@@ -1,1 +1,1 @@
-console.log("product card");
+console.log("product card"); 
