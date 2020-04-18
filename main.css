@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: #607D8B;
     display: flex;
     margin: 50px;
     padding: 0;
@@ -17,12 +17,12 @@ img{
     width: 200px;
 }
 .card{
-    border: solid 1px lightblue;
+    border: solid 1px #FFC107;
     width: 300px; 
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: white;
-    box-shadow: 5px 5px 8px darkgrey;
+    background-color: #CFD8DC;
+    box-shadow: 5px 5px 8px #455A64;
     margin: 0px 0 40px 0;
 
 }
@@ -30,11 +30,13 @@ footer{
     font-size: 6pt;
     text-align: center;
     font-weight: normal;
+    color: #757575;
 }
 h3{
     font-size: 14pt;
     padding: 0px 5px 0px 5px;
     margin: 0;
+    color: #212121;
 }
 .pricing{
     text-align: left;
@@ -46,15 +48,17 @@ h3{
 }
 .title{
     font-size: 16pt;
-    border-bottom: solid 1px lightblue;
+    border-bottom: solid 1px #FFC107;
+    color: #212121;
 }
 p{
     font-size: 8pt;
     padding: 0px 5px 0px 5px;
+    color: #212121;
 }
 #available{
-    color: yellow;
-    background-color: darkgrey;
+    color: #FFC107;
+    background-color: #455A64;
     text-align: left;
     margin: 0;
     padding: 0px 5px 0px 5px;
@@ -62,10 +66,11 @@ p{
 #description{
     text-align: justify;
     font-style: bold;
-    color: gray;
+    color: #757575;
     padding: 0px 5px 0px 5px;
 }
 #size, #weight, #price50, #price100, #price200{
     padding: 0px 5px 0px 15px;
     margin: 0;
+    color: #455A64;
 } 
